@@ -1,0 +1,40 @@
+
+/* body, header{
+    background-image: url("images/background.jpeg");
+} */
+.container{
+    background-color: #1d5acabe;
+}
+.nav-link{
+    color: white
+}
+/* .custom-navbar{
+    background-image: url("images/background.jpeg");
+} */
+.custom-navbar a:hover {
+    color: teal;
+}
+.custom-jumbotron {
+    color: rgb(225, 225, 238);
+}
+h2 {
+    text-decoration: underline;
+}
+h2, h5 {
+    color: rgb(225, 225, 238);
+}
+#contact a{
+    color: rgb(225, 225, 238);
+}
+#contact a:hover{
+    color: teal;
+}
+.card {
+height: 800px;
+/* width: 210px; */
+}
+.active, .project-link {
+    background-color: blueviolet !important;
+    color:rgb(225, 225, 238) !important;
+    border: none !important;
+}

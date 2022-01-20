@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 
+
 export default function Portfolio() {
   const [currentPage, setCurrentPage] = useState('Home');
 

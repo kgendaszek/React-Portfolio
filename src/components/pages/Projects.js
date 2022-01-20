@@ -1,116 +1,66 @@
-import React from 'react';
+import React from "react";
+import Project from "../Project";
 
 export default function Projects(props) {
-  const cardStyle = {
-    width: '18rem',
-  };
-
-  // Helper function that generates a random width for our placeholder images
-  const randomWidth = () => {
-    const number = Math.random() * (300 - 200) + 200;
-    return number.toString().split('.')[0];
-  };
-
+  const allProjects = [
+    {
+      image: "./images/Final-product.jpeg",
+      title: "HTML Refactoring",
+      description: "This assignment was to refactor this page to HTML 5 semantics.",
+      gitHub: "https://github.com/kgendaszek/Refactor-1",
+      deployed: "https://kgendaszek.github.io/Refactor-1/",
+    },
+    {
+      image: "./components/images/pwgen.png",
+      title: "Password Generator",
+      description: "This was my first project using JavaScript. As such, it proved an exciting challenge and a great learning experience.",
+      gitHub: "https://github.com/kgendaszek/password-generator",
+      deployed: "https://kgendaszek.github.io/password-generator/",
+    },
+    {
+      image: "link goes here",
+      title: "Test 2",
+      description: "This is yet another test",
+      gitHub: "https://github.com/kgendaszek/quiz",
+      deployed: "https://kgendaszek.github.io/quiz/",
+    },
+    {
+      image: "link goes here",
+      title: "Test 2",
+      description: "This is yet another test",
+      gitHub: "https://github.com/kgendaszek/",
+      deployed: "github.io/whatever",
+    },
+    {
+      image: "link goes here",
+      title: "Test 2",
+      description: "This is yet another test",
+      gitHub: "https://github.com/kgendaszek/",
+      deployed: "github.io/whatever",
+    },
+    {
+      image: "link goes here",
+      title: "Test 2",
+      description: "This is yet another test",
+      gitHub: "https://github.com/kgendaszek/",
+      deployed: "github.io/whatever",
+    },
+  ];
   return (
     <div className="container">
-      <div className="card" style={cardStyle}>
-        <img
-          className="card-img-top"
-          src={`http://placecorgi.com/${randomWidth()}`}
-          alt="Card cap"
-        />
-        <div className="card-body">
-        <h5 className="card-title">Name: {props.name}</h5>
-          <p className="card-text">Description: {props.description}</p>
-          <p className="card-text">ID: {props.id}</p>
-          <a href="#" className="btn btn-primary">
-            Adopt {props.name}
-          </a>
-        </div>
+      <div className="row">
+        {allProjects.map((app) => {
+          return (
+            <Project
+              image={app.image}
+              title={app.title}
+              description={app.description}
+              gitHub={app.gitHub}
+              deployed={app.deployed}
+            />
+          );
+        })}
       </div>
-      
-      <div className="card" style={cardStyle}>
-        <img
-          className="card-img-top"
-          src={`http://placecorgi.com/${randomWidth()}`}
-          alt="Card cap"
-        />
-        <div className="card-body">
-        <h5 className="card-title">Name: {props.name}</h5>
-          <p className="card-text">Description: {props.description}</p>
-          <p className="card-text">ID: {props.id}</p>
-          <a href="#" className="btn btn-primary">
-            Adopt {props.name}
-          </a>
-        </div>
-      </div>
-
-      <div className="card" style={cardStyle}>
-        <img
-          className="card-img-top"
-          src={`http://placecorgi.com/${randomWidth()}`}
-          alt="Card cap"
-        />
-        <div className="card-body">
-        <h5 className="card-title">Name: {props.name}</h5>
-          <p className="card-text">Description: {props.description}</p>
-          <p className="card-text">ID: {props.id}</p>
-          <a href="#" className="btn btn-primary">
-            Adopt {props.name}
-          </a>
-        </div>
-      </div>
-
-      <div className="card" style={cardStyle}>
-        <img
-          className="card-img-top"
-          src={`http://placecorgi.com/${randomWidth()}`}
-          alt="Card cap"
-        />
-        <div className="card-body">
-        <h5 className="card-title">Name: {props.name}</h5>
-          <p className="card-text">Description: {props.description}</p>
-          <p className="card-text">ID: {props.id}</p>
-          <a href="#" className="btn btn-primary">
-            Adopt {props.name}
-          </a>
-        </div>
-      </div>
-
-      <div className="card" style={cardStyle}>
-        <img
-          className="card-img-top"
-          src={`http://placecorgi.com/${randomWidth()}`}
-          alt="Card cap"
-        />
-        <div className="card-body">
-        <h5 className="card-title">Name: {props.name}</h5>
-          <p className="card-text">Description: {props.description}</p>
-          <p className="card-text">ID: {props.id}</p>
-          <a href="#" className="btn btn-primary">
-            Adopt {props.name}
-          </a>
-        </div>
-      </div>
-
-      <div className="card" style={cardStyle}>
-        <img
-          className="card-img-top"
-          src={`http://placecorgi.com/${randomWidth()}`}
-          alt="Card cap"
-        />
-        <div className="card-body">
-        <h5 className="card-title">Name: {props.name}</h5>
-          <p className="card-text">Description: {props.description}</p>
-          <p className="card-text">ID: {props.id}</p>
-          <a href="#" className="btn btn-primary">
-            Adopt {props.name}
-          </a>
-        </div>
-      </div>
-
     </div>
-
-    
   );
 }
