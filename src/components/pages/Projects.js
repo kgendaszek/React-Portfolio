@@ -1,24 +1,116 @@
 import React from 'react';
 
-export default function Blog() {
+export default function Projects(props) {
+  const cardStyle = {
+    width: '18rem',
+  };
+
+  // Helper function that generates a random width for our placeholder images
+  const randomWidth = () => {
+    const number = Math.random() * (300 - 200) + 200;
+    return number.toString().split('.')[0];
+  };
+
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div className="container">
+      <div className="card" style={cardStyle}>
+        <img
+          className="card-img-top"
+          src={`http://placecorgi.com/${randomWidth()}`}
+          alt="Card cap"
+        />
+        <div className="card-body">
+        <h5 className="card-title">Name: {props.name}</h5>
+          <p className="card-text">Description: {props.description}</p>
+          <p className="card-text">ID: {props.id}</p>
+          <a href="#" className="btn btn-primary">
+            Adopt {props.name}
+          </a>
+        </div>
+      </div>
+      
+      <div className="card" style={cardStyle}>
+        <img
+          className="card-img-top"
+          src={`http://placecorgi.com/${randomWidth()}`}
+          alt="Card cap"
+        />
+        <div className="card-body">
+        <h5 className="card-title">Name: {props.name}</h5>
+          <p className="card-text">Description: {props.description}</p>
+          <p className="card-text">ID: {props.id}</p>
+          <a href="#" className="btn btn-primary">
+            Adopt {props.name}
+          </a>
+        </div>
+      </div>
+
+      <div className="card" style={cardStyle}>
+        <img
+          className="card-img-top"
+          src={`http://placecorgi.com/${randomWidth()}`}
+          alt="Card cap"
+        />
+        <div className="card-body">
+        <h5 className="card-title">Name: {props.name}</h5>
+          <p className="card-text">Description: {props.description}</p>
+          <p className="card-text">ID: {props.id}</p>
+          <a href="#" className="btn btn-primary">
+            Adopt {props.name}
+          </a>
+        </div>
+      </div>
+
+      <div className="card" style={cardStyle}>
+        <img
+          className="card-img-top"
+          src={`http://placecorgi.com/${randomWidth()}`}
+          alt="Card cap"
+        />
+        <div className="card-body">
+        <h5 className="card-title">Name: {props.name}</h5>
+          <p className="card-text">Description: {props.description}</p>
+          <p className="card-text">ID: {props.id}</p>
+          <a href="#" className="btn btn-primary">
+            Adopt {props.name}
+          </a>
+        </div>
+      </div>
+
+      <div className="card" style={cardStyle}>
+        <img
+          className="card-img-top"
+          src={`http://placecorgi.com/${randomWidth()}`}
+          alt="Card cap"
+        />
+        <div className="card-body">
+        <h5 className="card-title">Name: {props.name}</h5>
+          <p className="card-text">Description: {props.description}</p>
+          <p className="card-text">ID: {props.id}</p>
+          <a href="#" className="btn btn-primary">
+            Adopt {props.name}
+          </a>
+        </div>
+      </div>
+
+      <div className="card" style={cardStyle}>
+        <img
+          className="card-img-top"
+          src={`http://placecorgi.com/${randomWidth()}`}
+          alt="Card cap"
+        />
+        <div className="card-body">
+        <h5 className="card-title">Name: {props.name}</h5>
+          <p className="card-text">Description: {props.description}</p>
+          <p className="card-text">ID: {props.id}</p>
+          <a href="#" className="btn btn-primary">
+            Adopt {props.name}
+          </a>
+        </div>
+      </div>
+
     </div>
+
+    
   );
 }

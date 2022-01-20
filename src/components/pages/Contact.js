@@ -1,22 +1,31 @@
-import React from 'react';
+import React from "react";
 
 export default function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h1>Contact Information: </h1>
+
+      <h5>
+        Call/text me at:
+        <a href="tel:856-693-8190">856-693-8190</a>
+      </h5>
+
+      <h5>
+        Email me at:{" "}
+        <a href="mailto:katieshake27@gmail.com">katieshake27@gmail.com</a>
+      </h5>
+      <h2>Professional Sites:</h2>
+      <h3>
+        <a href="https://github.com/kgendaszek">GitHub</a>
+      </h3>
+      <h3>
+        <a href="https://www.linkedin.com/in/katherine-gendaszek">LinkedIn</a>
+      </h3>
+      <h3>
+        <a href="https://docs.google.com/document/d/1VpI-rN4TVcuIP6O5eL94WStu2tVJB-5NctUQlEn0MZM/edit?usp=sharing">
+          Resume
+        </a>
+      </h3>
     </div>
   );
 }

@@ -5,16 +5,17 @@ export default function Home() {
     <div>
       <h1>Home Page</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      Hi! My name is Katie and I am so glad you are here! I have been happily
+        married since 2016, we've been together since 2007! We have a beautiful
+        daughter, and 3 crazy pets! Two dogs, Loki and Luna, and one 3-legged
+        cat, Bucky. When I'm not spending time with my family or learning how to
+        code, I love to read. When I was in elementary school I used to get in
+        trouble for reading during class! For the last 12 years I have worked in
+        retail, more than half of that as management. So, while I have no
+        previous job experience with Web Development, I bring many other skills
+        to the table. Customer service, problem solving, time management,and
+        adaptability, just to name a few! I can't wait to learn more, and grow
+        in this field.
       </p>
     </div>
   );
