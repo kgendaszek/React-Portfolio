@@ -6,7 +6,7 @@ function Project({ image, title, description, gitHub, deployed }) {
   return (
     <div className="card col-md-4">
       {/* <img className="card-img-top"src={require('../components/images/' + {image})} alt="Card cap"/> */}
-      <img className="card-img-body" src={image} alt="Card cap" />
+      <img className="card-img" src={image} alt="Card cap" />
       <div className="card-body">
         <h5 className="card-title">Title: {title}</h5>
         <p className="card-text">Description: {description}</p>

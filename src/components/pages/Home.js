@@ -8,7 +8,7 @@ export default function Home() {
       <div className="card col d-flex home">
         <img
           className="card-img-body"
-          src={require("../images/profile.jpeg")}
+          src={require("../../../src/profile.jpeg")}
           alt="profile" />
           <div className="card-text about d-flex">
             Hi! My name is Katie and I am so glad you are here! I have been

@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("../src/components/images/background.jpeg");
+    background-image: url("../public/images/background.jpeg");
 }
 .container{
     background-color: #1d5acabe;
@@ -12,7 +12,7 @@ body{
     padding: 12px; 
 }
 .nav{
-    background-image: url("../src/components/images/background.jpeg");
+    background-image: url("../public/images/background.jpeg");
 }
 
 .nav-item{

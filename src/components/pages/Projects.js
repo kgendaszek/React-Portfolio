@@ -1,3 +1,4 @@
+import { url } from "inspector";
 import React from "react";
 import Project from "../Project";
 
@@ -5,7 +6,7 @@ import Project from "../Project";
 export default function Projects(props) {
   const allProjects = [
     {
-      image: "src/components/images/Final-product.jpeg",
+      image: "../../../public/images/Final-product.jpeg",
       title: "HTML Refactoring",
       description: "This assignment was to refactor this page to HTML 5 semantics.",
       gitHub: "https://github.com/kgendaszek/Refactor-1",
