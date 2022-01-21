@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("../public/images/background.jpeg");
+    background-image: url("../src/images/background.jpeg");
 }
 .container{
     background-color: #1d5acabe;
@@ -12,7 +12,7 @@ body{
     padding: 12px; 
 }
 .nav{
-    background-image: url("../public/images/background.jpeg");
+    background-image: url("../src/images/background.jpeg");
 }
 
 .nav-item{
@@ -71,4 +71,7 @@ padding: 25px;
 }
 .contact{
     background-color:rgba(2, 2, 95, 0.699)!important;
+}
+.projectimg {
+    size: flex;
 }
