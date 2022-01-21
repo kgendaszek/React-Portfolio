@@ -3,8 +3,9 @@ import React from "react";
 export default function Contact() {
   return (
     <div>
+      
+      <div className="card col-md-6 mx-auto justify-content-center contact">
       <h1>Contact Information: </h1>
-
       <h5>
         Call/text me at:
         <a href="tel:856-693-8190">856-693-8190</a>
@@ -26,6 +27,7 @@ export default function Contact() {
           Resume
         </a>
       </h3>
+    </div>
     </div>
   );
 }
