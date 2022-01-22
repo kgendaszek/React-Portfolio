@@ -6,7 +6,7 @@ body{
     background-color: #1d5acabe;
 }
 .card-img-body{
-    size: 100px;
+    size: 75px;
 }
 .row{
     padding: 12px; 
@@ -42,7 +42,7 @@ h1, h2,h5 {
     color: teal;
 }
 .card {
-height: 600px;
+/* height: 600px; */
 padding: 25px;
 
 /* width: 210px; */
@@ -52,9 +52,9 @@ padding: 25px;
     color:steelblue;
     font-size: 2rem;
 }
-.card-footer {
+/* .card-footer {
     position: bottom;
-}
+} */
 .active, .project-link {
     background-color: rgb(14, 6, 126) !important;
     color:rgb(225, 225, 238) !important;
@@ -72,6 +72,6 @@ padding: 25px;
 .contact{
     background-color:rgba(2, 2, 95, 0.699)!important;
 }
-.projectimg {
+/* .projectimg {
     size: flex;
-}
+} */
